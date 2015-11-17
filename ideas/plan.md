@@ -4,15 +4,13 @@
 
 # Polynomials
 ## Representation
-+ ** Options: **
-  1. Dictionary of degree:coefficient
-  + Dictionary of degree:List of coefficients *useful for multivariable things?*
-  + Dictionary of string of variables:list of degrees
-    + Note: this would require a string parsing thing which we would need anyway
-    + Examples:
-    + `'2,xy':[0, 1, 1]` == 2 x y
-    + `'5,yz':[0, 2, 2]` == 5 y^2 z^2
-    
++ Dictionary of string of variables:list of degrees
+  + Note: this would require a string parsing thing which we would need anyway
+  + Examples:
+    + `'2;xy':[0, 1, 1]` == 2 x y
+    + `'5;yz':[0, 2, 2]` == 5 y^2 z^2
+  + Canonical format is <coefficient> <var1>^<deg1> <var2>^<deg2>
+
 ## Operations
 + +
   + Given option 3:
