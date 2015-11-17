@@ -25,5 +25,3 @@
     + Add corresponding coefficients together
 + /
   + Long division of polynomials?
-+ %
-  + Does this even make sense? Ask Emmie
